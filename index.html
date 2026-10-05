@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esnaf Kupası — Halı Saha 4'e 4</title>
+    <style>html,body{background:#05070d;margin:0}#splash{z-index:100;color:#f4f6f8;background:radial-gradient(70% 55% at 50% 42%,#ee7b3033,#0000 70%),linear-gradient(#0b1330,#070b1a 45%,#030408);flex-direction:column;justify-content:center;align-items:center;gap:22px;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;display:none;position:fixed;inset:0}html[data-splash] #splash{display:flex}#splash .brand{letter-spacing:2px;color:#ffe9a8;text-shadow:0 0 22px #f6b7228c,0 0 60px #ee7b3059;font-size:64px;font-style:italic;font-weight:900}#splash .brand em{letter-spacing:.55em;text-align:center;color:#ffe9a8;margin-top:2px;font-size:22px;font-style:normal;font-weight:700;display:block}#splash .brand span{letter-spacing:7px;text-align:center;color:#f4f6f8bf;margin-top:8px;font-size:13px;font-style:normal;font-weight:700;display:block}#splash .bar{background:#00000047;border-radius:3px;width:260px;height:5px;overflow:hidden}#splash .bar i{background:linear-gradient(90deg,#ffe58a,#f0a52a);border-radius:3px;width:40%;height:100%;animation:1.3s ease-in-out infinite sp-run;display:block}@keyframes sp-run{0%{transform:translate(-110%)}to{transform:translate(270%)}}</style>
+    <script>
+      // otomasyonda (webdriver) yalniz ?boot=1 ile; ?boot=0 ile hic
+      (function(){
+        var q=location.search,on=/[?&]boot=1/.test(q)||(!/[?&]boot=0/.test(q)&&!navigator.webdriver);
+        if(on)document.documentElement.setAttribute('data-splash','1');
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-Iz6GNg7Q.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-WG-vQn4o.css">
+  </head>
+  <body>
+    <div id="splash"><div class="brand">ESNAF<em>KUPASI</em><span>HALI SAHA 4'E 4</span></div><div class="bar"><i></i></div></div>
+    <div id="root"></div>
+  </body>
+</html>
